@@ -25,7 +25,7 @@ content = r"""
 pillow_image = latex_to_image(packages_and_commands,content,"output.jpg",dpi=500,img_type="JPEG")
 ```
 
-Also the with the r before the string you can just pass the latex code as it is without \n or something like that.
+Also with the r before the string you can just pass the latex code as it is without \n or something like that.
 # Installation 
 The libary needs miktex (link: https://miktex.org) to be installed. If you have AVast installed miktex might not work. A possible solution would to
 1. go to menu
