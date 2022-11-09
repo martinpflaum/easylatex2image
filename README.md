@@ -35,4 +35,7 @@ The libary needs miktex (link: https://miktex.org) to be installed. If you have 
 4. add pdflatex command as execption.
 Avast also might ask you if you want to make an execptions if you reboot. 
 
+also u might need to install 
+conda install -c conda-forge poppler
+
 Alternative Solution: Use Linux :)
