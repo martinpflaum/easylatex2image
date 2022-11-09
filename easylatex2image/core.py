@@ -6,15 +6,19 @@ import copy
 CONTENT_WRAPPER = r"""
 \documentclass[a4paper, 10pt]{article}
 %%packages%%
+\begin{document}
+
 \hoffset=-1in
 \voffset=-1in
 \setbox0\hbox{
 %%content%%
 }
+
 \pdfpageheight=\dimexpr\ht0+\dp0\relax
 \pdfpagewidth=\wd0
 \shipout\box0
-\stop
+
+\end{document}
 """
 
 def convert_pdf(in_file_name,out_file_name,dpi=500,img_type="JPEG"):
